@@ -1,0 +1,41 @@
+parameters:
+    database_host: 127.0.0.1
+    database_port: ~
+    database_name: arbitrage_trading_bot
+    database_user: ~
+    database_password: ~
+    database_driver: pdo_pgsql #pdo_mysql, pdo_sqlite, etc...
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: ~
+    mailer_password: ~
+    secret: ThisIsNoSoSecretChangeIt
+    interval_seconds : 5
+
+    itbit_api_key: ~
+    itbit_api_secret: ~
+    itbit_user_id: ~
+
+    bitstamp_api_key: ~
+    bitstamp_api_secret: ~
+    bitstamp_client_id: ~
+
+    kraken_api_key: ~
+    kraken_api_secret: ~
+
+    binance_api_key: ~
+    binance_api_secret: ~
+
+    cexio_api_key: ~
+    cexio_api_secret: ~
+    cexio_user_id: ~
+
+    bittrex_api_key: ~
+    bittrex_api_secret: ~
+
+    okcoin_api_key: ~
+    okcoin_api_secret: ~
+
+    quadrigacx_api_key: ~
+    quadrigacx_api_secret: ~
+    quadrigacx_client_id: ~
